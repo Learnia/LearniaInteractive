@@ -10,3 +10,4 @@ thumbs.db
 !.gitkeep
 .directory
 yarn.lock
+package-lock.json
