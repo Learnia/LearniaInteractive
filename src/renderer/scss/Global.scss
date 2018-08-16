@@ -1,0 +1,13 @@
+
+#firebaseui-auth-container > .mdl-card {
+    display: none;
+}
+
+.vertical-centered-text {
+    -ms-display: flex;
+    display: flex;
+    /* alineacion vertical */
+    align-items: center;
+     /* alineacion horizontal */
+    justify-content: center;
+}

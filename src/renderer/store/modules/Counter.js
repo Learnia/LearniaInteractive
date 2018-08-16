@@ -8,6 +8,7 @@ const mutations = {
   },
   INCREMENT_MAIN_COUNTER (state) {
     state.main++
+    console.log('increased')
   }
 }
 

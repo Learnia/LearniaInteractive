@@ -1,3 +1,5 @@
+'use strict'
+
 import { app, BrowserWindow } from 'electron'
 
 /**
@@ -28,6 +30,8 @@ function createWindow () {
   mainWindow.on('closed', () => {
     mainWindow = null
   })
+  // Define que la ventana no tenga menu.
+  mainWindow.setMenu(null)
 }
 
 app.on('ready', createWindow)
